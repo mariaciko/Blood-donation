@@ -1,0 +1,13 @@
+[1] "Coefficients - Original Data"
+               Estimate Std. Error    t value     Pr(>|t|)
+(Intercept)  -0.2627112 0.29740608 -0.8833417 3.785039e-01
+Sepal.Length  0.7291384 0.05831949 12.5024834 7.656980e-25
+Sepal.Width  -0.6460124 0.06849745 -9.4311891 8.753029e-17
+Petal.Width   1.4467934 0.06761125 21.3987078 7.332477e-47
+
+[1] "Coefficients - Corrupted Data"
+               Estimate Std. Error   t value     Pr(>|t|)
+(Intercept)  -0.8137564 0.53955095 -1.508210 1.336616e-01
+sepal_length  0.8792250 0.08600343 10.223139 7.727636e-19
+sepal_width  -0.6957129 0.10575401 -6.578596 7.934175e-10
+petal_width   1.1433210 0.10183231 11.227488 1.779822e-21

@@ -1,0 +1,18 @@
+ANOVA (Original Data)
+             Df Sum Sq Mean Sq F value Pr(>F)    
+Species       2  437.1  218.55    1180 <2e-16 ***
+Residuals   147   27.2    0.19                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+F-statistic (Original Data): 1180.161 
+
+ANOVA (Corrupted Data)
+             Df Sum Sq Mean Sq F value Pr(>F)    
+species       2  427.1  213.54   723.9 <2e-16 ***
+Residuals   147   43.4    0.29                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+F-statistic (Corrupted Data): 723.8573 
+
+The F-statistic is lower in the corrupted data, meaning that the group 
+      differences are harder to detect due to the added noise.

@@ -1,0 +1,4 @@
+R-squared (Original): 0.9680118 
+R-squared (Corrupted): 0.8719925 
+The R-squared value is lower in the corrupted data, indicating that 
+      the model's fit is reduced due to noise in the corrupted data.

@@ -1,0 +1,14 @@
+            
+             blue color orange red yellow
+  setosa       15     0     11  13     13
+  species       0     1      0   0      0
+  versicolor   16     0      8  16      9
+  virginica    16     0     11  11     11
+
+	Pearson's Chi-squared test
+
+data:  species_color_table
+X-squared = 153.23, df = 12, p-value < 2.2e-16
+
+Since the p-value is smaller than 0.05 there exists a statistically 
+    significant relationship between species and color

@@ -1,0 +1,42 @@
+
+Call:
+factanal(x = numeric_iris, factors = 3)
+
+Uniquenesses:
+  sepal_length    sepal_width   petal_length    petal_width attractiveness    likelytobuy 
+         0.005          0.479          0.005          0.005          0.958          0.978 
+        review 
+         0.993 
+
+Loadings:
+               Factor1 Factor2 Factor3
+sepal_length    0.919           0.385 
+sepal_width    -0.219   0.687         
+petal_length    0.953  -0.276   0.107 
+petal_width     0.978  -0.170  -0.100 
+attractiveness -0.190                 
+likelytobuy                    -0.144 
+review                                
+
+               Factor1 Factor2 Factor3
+SS loadings      2.793   0.589   0.195
+Proportion Var   0.399   0.084   0.028
+Cumulative Var   0.399   0.483   0.511
+
+Test of the hypothesis that 3 factors are sufficient.
+The chi square statistic is 2.29 on 3 degrees of freedom.
+The p-value is 0.514 
+
+ Sepal length, petal length, and petal width are strongly explained by factor 1.
+    Sepal width is well explained by factor 2.
+
+    I chose 3 factors because this is what gave me a p-value > 0.05, meaning 
+    the model fits the data well or that there is not enough evidence to reject 
+    the null hypothesis that the model fits the data well. 
+    4 factors were too many for 7 variables and 2 factors had an insanely high 
+    chi squared statistic as well as a small p-value (bad fit).
+    Characteristics that cluster together may indicate underlying biological 
+    relationships. For example, petal dimensions might reflect floral morphology.
+    Traits close together along a significant factor axis suggest positive 
+    relationships, indicating that they tend to increase or decrease together. 
+    Conversely, traits that are far apart suggest a negative relationship.

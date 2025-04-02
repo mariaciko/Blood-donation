@@ -1,0 +1,14 @@
+            
+             FALSE sold TRUE
+  setosa        26    0   26
+  species        0    1    0
+  versicolor    30    0   19
+  virginica     23    0   26
+
+	Pearson's Chi-squared test
+
+data:  species_sold_table
+X-squared = 153.25, df = 6, p-value < 2.2e-16
+
+Since the p-value is smaller than 0.05 there exists a statistically 
+    significant relationship between species and sales.

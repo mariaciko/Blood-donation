@@ -1,0 +1,9 @@
+                Df Sum Sq Mean Sq F value   Pr(>F)    
+Recency_months   1  10.62  10.624   65.68 2.17e-15 ***
+CompositeVar     1   4.50   4.502   27.83 1.74e-07 ***
+Residuals      745 120.52   0.162                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+There is a statistically significant effect of Recency_months on
+      whether_they_donated_blood_in_March_2007 when controlling for
+      CompositeVar (p = 0 ).

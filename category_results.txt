@@ -1,0 +1,23 @@
+
+Call:
+lm(formula = whether_they_donated_blood_in_March_2007 ~ Recency_months + 
+    Frequency_times + Time_months, data = category_subset)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-9.333e-15 -3.880e-16  1.100e-16  6.240e-16  4.658e-14 
+
+Coefficients:
+                  Estimate Std. Error    t value Pr(>|t|)    
+(Intercept)      1.000e+00  5.807e-16  1.722e+15  < 2e-16 ***
+Recency_months   6.213e-17  6.107e-17  1.017e+00   0.3103    
+Frequency_times  3.055e-16  5.829e-17  5.240e+00 4.59e-07 ***
+Time_months     -4.024e-17  1.951e-17 -2.063e+00   0.0406 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3.905e-15 on 174 degrees of freedom
+Multiple R-squared:  0.5001,	Adjusted R-squared:  0.4915 
+F-statistic: 58.02 on 3 and 174 DF,  p-value: < 2.2e-16
+
+The best predictor of 'whether_they_donated_blood_in_March_2007' within the category is: Recency_months 

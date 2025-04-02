@@ -1,0 +1,23 @@
+Call:
+polr(formula = as.factor(V10) ~ as.factor(V11), data = iris_purchase, 
+    Hess = TRUE)
+
+Coefficients:
+                        Value Std. Error  t value
+as.factor(V11)2       0.31247     0.5316  0.58778
+as.factor(V11)3      -0.80768     0.5134 -1.57314
+as.factor(V11)4       0.31247     0.5316  0.58778
+as.factor(V11)5      -0.52776     0.5149 -1.02491
+as.factor(V11)review -0.06568     1.4592 -0.04501
+
+Intercepts:
+           Value   Std. Error t value
+FALSE|sold -0.0790  0.3597    -0.2196
+sold|TRUE  -0.0511  0.3597    -0.1420
+
+Residual Deviance: 212.0496 
+AIC: 226.0496 
+     as.factor(V11)2      as.factor(V11)3      as.factor(V11)4      as.factor(V11)5 
+           0.5566792            0.1156859            0.5566792            0.3054035 
+as.factor(V11)review           FALSE|sold            sold|TRUE 
+           0.9640984            0.8261629            0.8870408 

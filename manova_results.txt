@@ -1,0 +1,5 @@
+                                          Df  Pillai approx F num Df den Df    Pr(>F)    
+whether_they_donated_blood_in_March_2007   1 0.12906   36.749      3    744 < 2.2e-16 ***
+Residuals                                746                                             
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

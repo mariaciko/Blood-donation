@@ -1,0 +1,43 @@
+How much each original variable contributes to each Principal Component
+Loadings:
+               Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6 Comp.7
+sepal_length    0.526  0.162                0.274  0.739  0.270
+sepal_width    -0.252  0.359  0.103  0.424  0.761 -0.170 -0.102
+petal_length    0.569                             -0.141 -0.803
+petal_width     0.554                       0.119 -0.634  0.520
+attractiveness -0.168  0.212  0.431 -0.826  0.243              
+likelytobuy           -0.877                0.468              
+review                 0.174 -0.891 -0.353  0.224              
+
+               Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6 Comp.7
+SS loadings     1.000  1.000  1.000  1.000  1.000  1.000  1.000
+Proportion Var  0.143  0.143  0.143  0.143  0.143  0.143  0.143
+Cumulative Var  0.143  0.286  0.429  0.571  0.714  0.857  1.000
+
+ PC that best describes overall size variation (all positive loadings):
+Comp.5 
+     5 
+
+ PC that best describes overall size variation (all negative loadings):
+[1] "None found"
+
+PCs driven strongly by one particular measurement (loadings close to 1):
+             row col
+sepal_width    2   5
+sepal_length   1   6
+The 5th and 6th components are strongly positively influenced by sepal width and length.
+PCs driven strongly by one particular measurement (loadings close to -1):
+               row col
+likelytobuy      6   2
+review           7   3
+attractiveness   5   4
+petal_length     3   7
+The 2nd, 3rd, 4th, and 7th components are strongly negatively influenced by 
+    likeliness to buy, the review rating, attractiveness, and petal length, respectively.
+
+ Summary: Amount of Variance explained by each PC 
+
+Proportion of Variance explained by each PC:
+     Comp.1      Comp.2      Comp.3      Comp.4      Comp.5      Comp.6      Comp.7 
+0.430701206 0.148940844 0.145949766 0.131447823 0.122221056 0.018327263 0.002412042 
+The 1st PC contributes to the most variance in the dataset. This agrees with the scree plot.
