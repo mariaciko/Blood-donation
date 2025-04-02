@@ -438,7 +438,6 @@ library('mixtools') # For GMM
 library('ggplot2')  # For plotting
 library('grid')     # For arranging multiple plots
 
-# Assuming numeric_iris is loaded as you mentioned earlier
 SZ <- (numeric_iris$sepal_length + numeric_iris$sepal_width + 
        numeric_iris$petal_length + numeric_iris$petal_width) / 4
 
