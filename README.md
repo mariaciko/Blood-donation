@@ -9,7 +9,7 @@ We then conducted an ANCOVA to see the effect of one variable on another while c
 
 ## Other statistical tests with IRIS datasets
 Sections #11 through #16, involve work with the Iris and extended/corrupted Iris datasets. Some of our analysis includes: 
-  - ANOVa, linear regression
+  - ANOVA, linear regression
   - Chi-squared tests to check for association between variables
   - Ordinal Logistic Regression to predict purchase decision based on review ratings
   - PCA to check for those components driven by one particular measurement, scree plots
